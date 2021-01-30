@@ -1,0 +1,136 @@
+/* resets */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: cadetblue;
+}
+
+.container {
+  padding: 5rem 2rem 3rem;
+}
+
+.heading-text {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.primary-color {
+  color: black;
+}
+
+.secondary-color {
+  color: #fff;
+}
+
+.description {
+  font-size: 2rem;
+  color: #fff;
+  padding: 2rem 0rem;
+}
+
+.buttons-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+
+}
+
+.next__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.btn:hover .next__icon {
+  fill: white;
+}
+
+.share {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #fff;
+  color: black;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.twitter__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.share:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.share:hover .twitter__icon {
+  fill: white;
+}
+
+.quote-box {
+  background-color: rgba(225, 225, 225, 0.3);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.quote {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.quote__icon1 {
+  width: 7rem;
+  height: 7rem;
+}
+
+.quote__icon2 {
+  width: 7rem;
+  height: 7rem;
+}
+
+.quote__layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+#authorName {
+  font-size: 1.5rem;
+  font-weight: 500;
+  align-self: flex-end;
+}

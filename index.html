@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Random Quotes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <h1 class="heading-text">
+          <span class="primary-color">Random Quotes</span>
+          <span class="secondary-color">Generator</span>
+        </h1>
+        <p class="description">
+          The best quotes in one place. You can easily see the best quotes and
+          share the ones you love on twitter with one click.
+        </p>
+      </div>
+      <div class="buttons-wrapper">
+        <button class="btn">
+          <svg class="next__icon">
+            <use xlink:href="./img/SVG/sprite.svg#icon-spinner11"></use>
+          </svg>
+
+          Next Quote
+        </button>
+        <a href="#" class="share">
+          <svg class="twitter__icon">
+            <use xlink:href="./img/SVG/sprite.svg#icon-twitter"></use>
+          </svg>
+
+          Share</a
+        >
+      </div>
+      <div class="quote-box">
+        <svg class="quote__icon1">
+          <use xlink:href="./img/SVG/sprite.svg#icon-quotes-left"></use>
+        </svg>
+        <div class="random__quote">
+          <div class="quote">
+            <h3 class="text">
+              In quoting others, we cite ourselves
+            </h3>
+          </div>
+          <div class="quote__layout">
+            <p id="authorName">Julio Cortazar</p>
+            <svg class="quote__icon2">
+              <use xlink:href="./img/SVG/sprite.svg#icon-quotes-right"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
