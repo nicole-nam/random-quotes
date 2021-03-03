@@ -11,14 +11,18 @@ btn.addEventListener("click", function () {
 });
 
 const getRandomQuote = function () {
-  fetch("https://favqs.com/api/qotd")
+  fetch("https://goquotes-api.herokuapp.com/api/v1/random?count=1")
     .then((response) => response.json())
     .then((data) => {
-      const info = data.quote;
-      const author = info.author;
-      const quote = info.body;
+      console.log(data);
+      const { quotes } = data;
+      const text = quotes[0].text;
+      const author = quotes[0].author;
+      console.log(text);
+      // const author = info.author;
+      // const quote = info.body;
 
-      quoteText.innerHTML = quote;
+      quoteText.innerHTML = text;
       authorName.innerHTML = author;
     });
 };

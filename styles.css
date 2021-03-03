@@ -141,6 +141,9 @@ body {
     gap: 1rem;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 4rem;
+
+    max-width: 120rem;
+    margin: 0 auto;
   }
 
   .intro {
