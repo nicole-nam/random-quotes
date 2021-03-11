@@ -14,13 +14,11 @@ const getRandomQuote = function () {
   fetch("https://goquotes-api.herokuapp.com/api/v1/random?count=1")
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
       const { quotes } = data;
       const text = quotes[0].text;
       const author = quotes[0].author;
       console.log(text);
-      // const author = info.author;
-      // const quote = info.body;
+
 
       quoteText.innerHTML = text;
       authorName.innerHTML = author;
