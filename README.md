@@ -2,32 +2,18 @@
 
 ![alt text](https://nicole-nam.github.io/portfolio/images/project-img/random-quotes.png)
 
-Random Quotes generator built using Go quotes API. It generates random quotes every time next quote button is clicked and is shareable using user's twitter account.
+Random Quotes generator built using Go quotes API.
 
-## Installation
-
-### 1. Set up local development environment
-
-clone this repository
+## Built With
 
 ```bash
-#If you haven't set up ssh, use https
-git clone git@github.com:nicole-nam/countries.git
-```
-
-### 2. Start developing
-
-Navigate into new site's directory and start it up
-
-```bash
-npm install
-npm start
-
-running at http://localhost:3000
+ HTML 5
+ CSS
+ JS
 ```
 
 ## Usage
 
-User is able to see all countries from the API and search for a
-country using input field. Filter countries by region and toggle
-color scheme between light and dark mode.
+It generates random quotes every time next quote button is clicked and is shareable using user's twitter account.
+
+👉 [Random Quotes](https://nicole-nam.github.io/random-quotes/)
