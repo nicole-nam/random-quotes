@@ -6,11 +6,9 @@ Random Quotes generator built using Go quotes API.
 
 ## Built With
 
-```bash
- HTML 5
- CSS
- JS
-```
+- HTML 5
+- CSS
+- JS
 
 ## Usage
 
